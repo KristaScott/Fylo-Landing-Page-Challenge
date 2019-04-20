@@ -1,0 +1,24 @@
+/*********PAGE LAYOUT**************/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr ;
+}
+
+.big-image {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.info {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+
+
+/********IMAGE DISPLAYS**********/
+ .nav img {
+   width: 50px;
+   height: 50px;
+ }
